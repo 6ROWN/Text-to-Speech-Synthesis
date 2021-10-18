@@ -1,0 +1,44 @@
+
+@include mediaMd{
+    body{
+        .container{
+            height: 400px;
+            width: 400px;
+
+            .pointer-container{
+                height: 197px;
+            }
+
+            .pointer{
+                &:nth-child(1){
+                    left: 30;
+                    top:310;
+                    background: #fcc2c0;
+                }
+                &:nth-child(2){
+                    left: 30;
+                    top:70;
+                    background: #fcc2c0;
+                }
+                &:nth-child(3){
+                    right: 30;
+                    top:70;
+                    background: #caeae5;
+                }
+                &:nth-child(4){
+                    right: 40;
+                    top:320;
+                    background: #caeae5;
+                }
+            }
+
+            .content{
+                .text-box{
+                    top: 40;
+                }
+            }
+        }   
+
+
+    }
+}

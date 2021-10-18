@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech Synthesis</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/1.2/skeleton.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="bg-showcase">
+        <ul class="sm-circles">
+            <li class="sm-circle-1"></li>
+            <li class="sm-circle-2"></li>
+            <li class="sm-circle-3"></li>
+            <li class="sm-circle-4"></li>
+            <li class="sm-circle-5"></li>
+            <li class="sm-circle-6"></li>
+            <li class="sm-circle-1"></li>
+            <li class="sm-circle-3"></li>
+            <li class="sm-circle-5"></li>
+            <li class="sm-circle-6"></li>
+        </ul>
+    </section>
+    <section class="container">
+        <div class="circle">
+            <div class="content">
+                <div class="text">
+                    <h1>YOU WRITE IT</h1>
+                    <p> WE SAY IT</p>
+                </div>
+                <div class="img">
+                    <img src="./assets/img/s2t.png" alt="">
+                </div>
+                <div class="button">
+                    <button id="toggle" class=" btn btn-toggle" >PROCEED</button>
+                </div>
+                <div id="text-box" class="text-box">
+                    <div class="flex-box">
+                        <h3>Choose voices</h3>
+                        <div class="close"> <i class='bx bx-x'></i> </div>
+                    </div>
+                    <select id="voices"> </select>
+                    <textarea id="text-to-read" placeholder="Enter text to read"> </textarea>
+                    <button class=" btn" id="read-btn" >READ TEXT</button>
+
+                </div>
+                
+            </div>
+            <div class="pointer-container">
+                <span class="spin-pointer">
+                </span>                   
+            </div>
+
+            <div class="pointers">
+                <span class="pointer">
+                </span>
+                <span class="pointer">
+                </span>
+                <span class="pointer">
+                </span>
+                <span class="pointer">
+                </span>
+
+            </div>
+        </div>
+
+    </section>
+    
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
